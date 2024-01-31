@@ -1,0 +1,7 @@
+@import '../../scss/variables.scss';
+
+.hero {
+    display: flex;
+    padding-right: $x-spacing;
+    padding-left: $x-spacing;
+}

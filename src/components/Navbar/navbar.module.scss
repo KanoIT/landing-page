@@ -1,0 +1,60 @@
+@import '../../scss/variables.scss';
+
+.navbar {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: $x-spacing;
+    padding-left: $x-spacing;
+
+    div {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: $font-roboto;
+    font-size: .9em;
+
+    a{
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-shadow: 
+        0 0 14px $incandecent,
+        0 0 14px $incandecent,
+        0 0 14px $incandecent,
+        0 0 14px $incandecent
+        ;
+        transition: all 0.5s;
+    }
+}
+
+.logo {
+    height: 90px;
+    width: 75px;
+}
+
+
+.button {
+    background-color: $custom-primary !important;
+    width: $button-xl;
+    border-color: $custom-primary !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+
+    &:hover {
+        background-color: $incandecent !important;
+        color: $background-color !important;
+    }
+}
+

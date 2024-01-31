@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    box-sizing: border-box;
+  
+    font-family: Oswald, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+$background-color: #212B38;
+$text-color: #FCFCF7;
+$custom-primary: #08C6AB;
+$custom-secondary: #37465B;
+$incandecent: #5AFFE7;
+
+$screen-xs-min: 480px; /* Extra small screen / phone */
+$screen-sm-min: 768px; /* Small screen / tablet */
+$screen-md-min: 992px; /* Medium screen / desktop */
+$screen-lg-min: 1200px;
+
+$font-oswald: Oswald, sans-serif;
+$font-roboto: Roboto, sans-serif;
+
+$button-lg: 150px;
+$button-xl: 180px;
+
+$x-spacing: 150px;

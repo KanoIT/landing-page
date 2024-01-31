@@ -1,0 +1,15 @@
+@import './scss/variables.scss';
+
+.app {
+  
+    background-color: $background-color;
+    color: $text-color;
+  
+    height: 100vh;
+  }
+  
+  [data-theme='light'] {
+    $background-color: #FCFCF7;
+    $text-color: #212B38;
+  }
+  
