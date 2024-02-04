@@ -1,0 +1,18 @@
+@import '../../../scss/variables.scss';
+
+.hero {
+    height: 70vh;
+    display: flex;
+    padding: 25px $x-spacing;
+    margin-top: 95px;
+    margin-bottom: 10px;
+}
+
+.heroImage {
+    width: 720px;
+    height: 320px;
+}
+
+.button {
+    margin-top: 50px;
+}

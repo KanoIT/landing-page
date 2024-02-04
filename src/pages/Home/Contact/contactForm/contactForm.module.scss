@@ -1,0 +1,70 @@
+@import '../../../../scss/variables.scss';
+
+.form {
+    height: 70vh;
+    margin-right: $x-spacing !important;
+    border-radius: 40px;
+    padding: 60px;
+    background-color: $background-color;
+
+    -webkit-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+    -moz-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+    box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    input {
+        padding: 10px;
+        border-radius: 10px;
+        width: 30vw;
+    }
+
+    input::placeholder {
+        font-size: 0.75rem !important;
+    }
+
+    input:focus-visible {
+        outline: none;
+    }
+
+    textarea {
+        width: auto;
+        resize: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 30vw;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    label {
+        color: $text-color;
+        margin-bottom: 5px;
+    }
+    
+}
+
+.button {
+    display: flex;
+    justify-content: start;
+
+    button {
+        background-color: $custom-primary !important;
+
+        &:hover {
+            background-color: $incandecent !important;
+        }
+    }
+}

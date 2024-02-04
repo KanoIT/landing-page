@@ -1,0 +1,29 @@
+@import '../../../../scss/variables.scss';
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    padding-right: $x-spacing;
+
+    .button {
+        align-items: end;
+    }
+}
+
+.title {
+    font-family: $font-roboto;
+    font-weight: 400;
+    color: $custom-primary;
+}
+
+.description {
+    width: 480px;
+    font-family: $font-roboto;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: $background-color;
+    text-align: end;
+}

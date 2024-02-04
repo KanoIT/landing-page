@@ -1,0 +1,11 @@
+@import '../../../scss/variables.scss';
+
+.contact {
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: $x-spacing;
+    background-color: $text-color;
+}

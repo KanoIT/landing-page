@@ -1,0 +1,19 @@
+@import '../../../scss/variables.scss';
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font-family: $font-oswald;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: $font-roboto;
+        color: $background-color;
+    }
+}

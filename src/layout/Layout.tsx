@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import styles from './layout.module.scss'
 
@@ -12,6 +13,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
         <main>
             {children}
         </main>
+        <Footer />
     </div>
     
   )

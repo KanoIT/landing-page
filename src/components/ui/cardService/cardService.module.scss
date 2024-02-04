@@ -1,0 +1,26 @@
+@import '../../../scss/variables.scss';
+
+.card {
+    height: 100%;
+    padding: 20px;
+    margin-top: 120px;
+    -webkit-box-shadow: 7px 10px 40px -15px rgba(252,252,247,0.5);
+    -moz-box-shadow: 7px 10px 40px -15px rgba(252,252,247,0.5);
+    box-shadow: 7px 10px 40px -15px rgba(252,252,247,0.5);
+
+    div {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+        h3:nth-child(2) {
+            color: $custom-primary;
+        }
+    }
+}
+
+.image > img {
+    max-width: 220px;
+    max-height: 160px;
+    margin: 40px auto;
+}

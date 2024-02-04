@@ -1,0 +1,15 @@
+@import '../../../../scss/variables.scss';
+
+.title {
+    color: $custom-primary;
+
+    h2 {
+        font-family: $font-oswald;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}
+
+.contactText {
+    color: $background-color;
+}

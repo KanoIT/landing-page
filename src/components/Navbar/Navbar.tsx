@@ -21,7 +21,7 @@ const Navbar = () => {
         <Col lg={'4'}>
           <div className={styles.links}>
             {links.map(link => (
-                <a href={'#'}>{link}</a>
+                <a key={link} href={'#'}>{link}</a>
             ))}
           </div>
         </Col>

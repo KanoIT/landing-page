@@ -1,0 +1,14 @@
+@import '../../../../scss/variables.scss';
+
+.title {
+    font-family: $font-oswald;
+    font-size: 5rem;
+    font-weight: 700;   
+    padding-top: 50px;
+}
+
+.titleColor {
+    margin-left: 15px;
+    color: $incandecent;
+    text-decoration: underline;
+}

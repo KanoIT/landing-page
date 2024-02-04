@@ -1,0 +1,23 @@
+@import '../../../scss/variables.scss';
+
+.about {
+    height: 100vh;
+    
+    background-color: $text-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin: 70px auto;
+    padding-left: $x-spacing;
+    height: 400px;
+}
+
+.button {
+    display: flex !important;
+    justify-content: flex-end !important;
+    text-align: end !important;
+    padding-right: $x-spacing;
+}
