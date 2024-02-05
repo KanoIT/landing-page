@@ -2,7 +2,7 @@ import {Col, Button} from 'react-bootstrap'
 
 import { links } from "../../constants/links";
 import styles from './navbar.module.scss'
-import logo from '../../assets/logo-light.png';
+import logo from '../../assets/logos/logo-light.png';
 
 
 const Navbar = () => {

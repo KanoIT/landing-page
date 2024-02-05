@@ -1,6 +1,6 @@
 import { Col } from 'react-bootstrap';
 
-import image from '../../assets/logo-dark.png';
+import image from '../../assets/logos/logo-dark.png';
 import styles from './footer.module.scss';
 import UtilLinks from './utilLinks/UtilLinks';
 

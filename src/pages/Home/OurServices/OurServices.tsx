@@ -2,9 +2,9 @@ import { Col } from 'react-bootstrap';
 
 import styles from './ourServices.module.scss';
 import CardService from '../../../components/ui/cardService/CardService';
-import card1 from '../../../assets/card1.png'
-import card2 from '../../../assets/card2.png'
-import card3 from '../../../assets/card3.png'
+import card1 from '../../../assets/cards/card1.png'
+import card2 from '../../../assets/cards/card2.png'
+import card3 from '../../../assets/cards/card3.png'
 
 const OurServices = () =>
 (

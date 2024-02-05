@@ -21,6 +21,10 @@
     &:hover {
         border-color: $incandecent !important;
         transition: all .5s;
+        border-color: $custom-primary !important;
+        -webkit-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+        -moz-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+        box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
     }
 };
 
@@ -45,5 +49,9 @@
     &:hover {
         border-color: $custom-primary !important;
         transition: all .5s;
+        border-color: $custom-primary !important;
+        -webkit-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+        -moz-box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
+        box-shadow: 7px 10px 40px -15px rgba(33,43,56,0.5);
     }
 };

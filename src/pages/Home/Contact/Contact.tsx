@@ -1,8 +1,9 @@
 import { Col } from 'react-bootstrap';
 
 import styles from './contact.module.scss';
-import ContactText from './contactText/ContactText';
-import ContactForm from './contactForm/ContactForm';
+import ContactText from './organisms/contactText/ContactText';
+import ContactForm from './organisms/contactForm/ContactForm';
+import SocialMediaList from './organisms/socialMediaList/SocialMediaList';
 
 const Contact = () =>
 (
@@ -11,8 +12,10 @@ const Contact = () =>
             <ContactText />
         </Col>
         <Col sm={'12'} lg={'6'}>
-            <ContactForm />
+            {/* <ContactForm /> */}
+            <SocialMediaList />
         </Col>
+        
     </section>
 )
 
