@@ -1,6 +1,6 @@
 import {Col} from 'react-bootstrap';
 
-import image from '../../../assets/engineering_team.svg'
+import image from '../../../assets/svgs/engineering_team.svg'
 import HeroTitle from './heroTitle/HeroTitle';
 import styles from './hero.module.scss'
 import CustomButton from '../../../components/ui/buttonAgendarReunion/CustomButton';

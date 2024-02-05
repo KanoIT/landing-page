@@ -1,7 +1,7 @@
 import { Form } from 'react-bootstrap';
 
 import styles from './contactForm.module.scss';
-import CustomButton from '../../../../components/ui/buttonAgendarReunion/CustomButton';
+import CustomButton from '../../../../../components/ui/buttonAgendarReunion/CustomButton';
 
 const ContactForm = () => {
   return (

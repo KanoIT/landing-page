@@ -2,7 +2,7 @@
 import { Button } from 'react-bootstrap'
 
 import styles from './customButton.module.scss';
-import arrow from '../../../assets/arrow-up-right-circle.svg';
+import arrow from '../../../assets/svgs/arrow-up-right-circle.svg';
 
 interface CustomButtonProps {
     mode: string;

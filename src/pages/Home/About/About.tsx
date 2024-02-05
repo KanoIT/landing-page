@@ -1,7 +1,7 @@
 import { Col } from 'react-bootstrap';
 
 import styles from './about.module.scss';
-import image from '../../../assets/maker_launch.svg'
+import image from '../../../assets/svgs/maker_launch.svg'
 import AboutText from './aboutText/AboutText';
 import CustomButton from '../../../components/ui/buttonAgendarReunion/CustomButton';
 

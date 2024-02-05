@@ -1,0 +1,15 @@
+@import '../../../../../scss/variables.scss';
+
+
+.buttonCalendar {
+    margin-left: 32px;
+    margin-bottom: 40px;
+
+    button {
+        background-color: $custom-primary !important;
+        
+        &:hover {
+            border-color: $custom-primary !important;
+        }
+    }
+}
